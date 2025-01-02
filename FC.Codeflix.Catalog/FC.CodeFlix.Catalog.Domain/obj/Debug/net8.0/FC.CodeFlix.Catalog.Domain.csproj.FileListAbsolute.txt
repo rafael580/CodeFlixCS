@@ -9,3 +9,4 @@ C:\Users\kali\Desktop\FullCycle\FC.Codeflix.Catalog\FC.CodeFlix.Catalog.Domain\o
 C:\Users\kali\Desktop\FullCycle\FC.Codeflix.Catalog\FC.CodeFlix.Catalog.Domain\obj\Debug\net8.0\refint\FC.CodeFlix.Catalog.Domain.dll
 C:\Users\kali\Desktop\FullCycle\FC.Codeflix.Catalog\FC.CodeFlix.Catalog.Domain\obj\Debug\net8.0\FC.CodeFlix.Catalog.Domain.pdb
 C:\Users\kali\Desktop\FullCycle\FC.Codeflix.Catalog\FC.CodeFlix.Catalog.Domain\obj\Debug\net8.0\ref\FC.CodeFlix.Catalog.Domain.dll
+C:\Users\kali\Desktop\FullCycle\FC.Codeflix.Catalog\FC.CodeFlix.Catalog.Domain\obj\Debug\net8.0\FC.CodeFlix.Catalog.Domain.sourcelink.json

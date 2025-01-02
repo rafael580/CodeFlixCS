@@ -1,5 +1,7 @@
-﻿using System;
+﻿using FC.CodeFlix.Catalog.Domain.Exceptions;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,6 +26,26 @@ namespace FC.CodeFlix.Catalog.Domain.Entities
             Description = description;
             this.IsActive = isActive;
             this.CreatedAt = DateTime.Now;
+
+            Validate();
         }
+
+
+        public void Validate()
+        {
+            if (String.IsNullOrWhiteSpace(this.Name))
+            {
+
+                throw new EntityValidationException($"{nameof(Name)} should not be empty or null");
+
+            }
+            if (Description == null)
+            {
+                throw new EntityValidationException($"{nameof(Description)} should not be null");
+            }
+
+        }
+
+        
     }
 }

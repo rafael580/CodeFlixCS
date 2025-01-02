@@ -100,3 +100,4 @@ C:\Users\kali\Desktop\FullCycle\FC.Codeflix.Catalog\FC.Codeflix.Catalog.UnitTest
 C:\Users\kali\Desktop\FullCycle\FC.Codeflix.Catalog\FC.Codeflix.Catalog.UnitTests\obj\Debug\net8.0\FC.Codeflix.Catalog.UnitTests.pdb
 C:\Users\kali\Desktop\FullCycle\FC.Codeflix.Catalog\FC.Codeflix.Catalog.UnitTests\obj\Debug\net8.0\FC.Codeflix.Catalog.UnitTests.genruntimeconfig.cache
 C:\Users\kali\Desktop\FullCycle\FC.Codeflix.Catalog\FC.Codeflix.Catalog.UnitTests\obj\Debug\net8.0\ref\FC.Codeflix.Catalog.UnitTests.dll
+C:\Users\kali\Desktop\FullCycle\FC.Codeflix.Catalog\FC.Codeflix.Catalog.UnitTests\obj\Debug\net8.0\FC.Codeflix.Catalog.UnitTests.sourcelink.json
