@@ -1,0 +1,78 @@
+﻿
+using Xunit;
+using DomainEntity = FC.CodeFlix.Catalog.Domain.Entities;
+
+namespace FC.Codeflix.Catalog.UnitTests.Domain.Entities.Category
+{
+    public class CategoryTest
+    {
+
+        [Fact(DisplayName = nameof(Instantiate))]
+        [Trait("Domain", "Category - Aggregates")]
+        public void Instantiate()
+        {
+            //Arrange
+            var validData = new
+            {
+                Name = "category name",
+                Description = "category description"
+            };
+
+            //Act
+
+            var category = new   DomainEntity.Category (validData.Name, validData.Description);
+
+            var datetimeBefore = DateTime.Now;
+
+            var datetimeAfter = DateTime.Now;
+
+            //Assert
+
+            Assert.NotNull(category);
+            Assert.Equal(validData.Name, category.Name);
+            Assert.Equal(validData.Description, category.Description);
+            Assert.NotEqual(Guid.Empty, category.Id);
+            Assert.NotEqual(default(DateTime), category.CreatedAt);
+            Assert.True(category.CreatedAt < datetimeBefore);
+            Assert.True(category.CreatedAt < datetimeAfter);
+            Assert.True(category.IsActive);
+
+
+        }
+
+        [Theory(DisplayName = nameof(InstantiateWIthActiveStatus))]
+        [Trait("Domain", "Category - Aggregates")]
+        [InlineData(true)]
+        [InlineData(false)]
+        public void InstantiateWIthActiveStatus(bool isActive)
+        {
+            //Arrange
+            var validData = new
+            {
+                Name = "category name",
+                Description = "category description"
+            };
+
+            //Act
+
+            var category = new DomainEntity.Category(validData.Name, validData.Description, isActive);
+
+            var datetimeBefore = DateTime.Now;
+
+            var datetimeAfter = DateTime.Now;
+
+            //Assert
+
+            Assert.NotNull(category);
+            Assert.Equal(validData.Name, category.Name);
+            Assert.Equal(validData.Description, category.Description);
+            Assert.NotEqual(Guid.Empty, category.Id);
+            Assert.NotEqual(default(DateTime), category.CreatedAt);
+            Assert.True(category.CreatedAt < datetimeBefore);
+            Assert.True(category.CreatedAt < datetimeAfter);
+            Assert.Equal(isActive,category.IsActive);
+
+
+        }
+    }
+}

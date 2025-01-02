@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kali\\Desktop\\FullCycle\\FC.Codeflix.Catalog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBA440C-4D4D-4264-8AE6-64E75EBFEE17}|FC.Codeflix.Catalog.UnitTests\\FC.Codeflix.Catalog.UnitTests.csproj|c:\\users\\kali\\desktop\\fullcycle\\fc.codeflix.catalog\\fc.codeflix.catalog.unittests\\domain\\entities\\category\\categorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBA440C-4D4D-4264-8AE6-64E75EBFEE17}|FC.Codeflix.Catalog.UnitTests\\FC.Codeflix.Catalog.UnitTests.csproj|solutionrelative:fc.codeflix.catalog.unittests\\domain\\entities\\category\\categorytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947F4DD7-CF5C-4BDD-8E46-DEFF6C49F5F1}|FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj|c:\\users\\kali\\desktop\\fullcycle\\fc.codeflix.catalog\\fc.codeflix.catalog.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{947F4DD7-CF5C-4BDD-8E46-DEFF6C49F5F1}|FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj|solutionrelative:fc.codeflix.catalog.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\kali\\Desktop\\FullCycle\\FC.Codeflix.Catalog\\FC.CodeFlix.Catalog.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "FC.CodeFlix.Catalog.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\kali\\Desktop\\FullCycle\\FC.Codeflix.Catalog\\FC.CodeFlix.Catalog.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "FC.CodeFlix.Catalog.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA5wBMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T14:00:13.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryTest.cs",
+              "DocumentMoniker": "C:\\Users\\kali\\Desktop\\FullCycle\\FC.Codeflix.Catalog\\FC.Codeflix.Catalog.UnitTests\\Domain\\Entities\\Category\\CategoryTest.cs",
+              "RelativeDocumentMoniker": "FC.Codeflix.Catalog.UnitTests\\Domain\\Entities\\Category\\CategoryTest.cs",
+              "ToolTip": "C:\\Users\\kali\\Desktop\\FullCycle\\FC.Codeflix.Catalog\\FC.Codeflix.Catalog.UnitTests\\Domain\\Entities\\Category\\CategoryTest.cs*",
+              "RelativeToolTip": "FC.Codeflix.Catalog.UnitTests\\Domain\\Entities\\Category\\CategoryTest.cs*",
+              "ViewState": "AgIAADUAAAAAAAAAAAAYwEgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:55:54.585Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
